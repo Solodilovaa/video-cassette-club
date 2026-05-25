@@ -1,0 +1,281 @@
+.account-circle {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.account-circle img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.user-tapes {
+  background-color: #e4dac7;
+  min-height: 1024px;
+  min-width: 1440px;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.user-tapes .frame {
+  align-items: center;
+  cursor: grab;
+  display: flex;
+  gap: 42px;
+  left: 44px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: absolute;
+  scroll-behavior: auto;
+  touch-action: pan-y;
+  top: 512px;
+  user-select: none;
+  width: 1396px;
+}
+
+.user-tapes .frame.is-dragging {
+  cursor: grabbing;
+}
+
+.user-tapes .frame::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.user-tapes .frame img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.user-tapes .group {
+  flex: 0 0 256px;
+  height: 413px;
+  position: relative;
+  width: 256px;
+}
+
+.user-tapes .vector {
+  height: 413px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 254px;
+}
+
+.user-tapes .image {
+  height: 267px;
+  left: 35px;
+  object-fit: cover;
+  position: absolute;
+  top: 26px;
+  width: 183px;
+}
+
+.user-tapes .text-wrapper {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: calc(50.00% - 82px);
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 275px;
+  white-space: nowrap;
+}
+
+.user-tapes .div {
+  flex: 0 0 256px;
+  height: 423px;
+  position: relative;
+  width: 256px;
+}
+
+.user-tapes .img {
+  height: 423px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 254px;
+}
+
+.user-tapes .image-2 {
+  height: 273px;
+  left: 35px;
+  object-fit: cover;
+  position: absolute;
+  top: 35px;
+  width: 183px;
+}
+
+.user-tapes .text-wrapper-2 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 278px;
+  white-space: nowrap;
+}
+
+.user-tapes .text-wrapper-3 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 278px;
+  white-space: nowrap;
+}
+
+.user-tapes .image-3 {
+  height: 267px;
+  left: 32px;
+  object-fit: cover;
+  position: absolute;
+  top: 26px;
+  width: 183px;
+}
+
+.user-tapes .text-wrapper-4 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 74px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 278px;
+  white-space: nowrap;
+}
+
+.user-tapes .text-wrapper-5 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 89px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 278px;
+  white-space: nowrap;
+}
+
+.user-tapes .image-4 {
+  height: 267px;
+  left: 35px;
+  object-fit: cover;
+  position: absolute;
+  top: 34px;
+  width: 183px;
+}
+
+.user-tapes .group-2 {
+  flex: 0 0 256px;
+  height: 413px;
+  position: relative;
+  width: 256px;
+}
+
+.user-tapes .text-wrapper-6 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 273px;
+  white-space: nowrap;
+}
+
+.user-tapes .image-5 {
+  height: 267px;
+  left: 34px;
+  object-fit: cover;
+  position: absolute;
+  top: 21px;
+  width: 183px;
+}
+
+.user-tapes .p {
+  color: #4a4541;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 370px;
+  white-space: nowrap;
+}
+
+.user-tapes .CHOOSE-YOUR-TAPE {
+  color: #000000;
+  font-family: "Lalezar", Helvetica;
+  font-size: 96px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 170px;
+  width: 668px;
+}
+
+.user-tapes .VIDEO-CASSETTE-CLUB {
+  color: transparent;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  white-space: nowrap;
+  width: 376px;
+}
+
+.user-tapes .span {
+  color: #000000;
+}
+
+.user-tapes .text-wrapper-7 {
+  color: #f36745;
+}
+
+.user-tapes .text-wrapper-8 {
+  color: #1e1e1e;
+  font-family: "Lalezar", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 1103px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 57px;
+  white-space: nowrap;
+  width: 156px;
+}
+
+.user-tapes .account-circle-instance {
+  height: 88px !important;
+  left: 1299px !important;
+  top: 33px !important;
+  width: 88px !important;
+}

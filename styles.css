@@ -1,0 +1,79 @@
+.landing {
+  background:
+    linear-gradient(
+      0deg,
+      rgba(228, 218, 199, 1) 0%,
+      rgba(228, 218, 199, 1) 100%
+    ),
+    linear-gradient(
+      0deg,
+      rgba(237, 234, 228, 1) 0%,
+      rgba(237, 234, 228, 1) 100%
+    );
+  min-height: 1024px;
+  min-width: 1440px;
+  position: relative;
+  width: 100%;
+}
+
+.landing .group {
+  cursor: pointer;
+  display: block;
+  height: 98px;
+  left: 533px;
+  position: absolute;
+  top: 662px;
+  width: 376px;
+}
+
+.landing .vector {
+  height: 98px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 374px;
+}
+
+.landing .text-wrapper {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 65px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 24px;
+  width: 245px;
+}
+
+.landing .image {
+  aspect-ratio: 1.54;
+  height: 432px;
+  left: calc(50.00% - 510px);
+  object-fit: contain;
+  position: absolute;
+  top: 24px;
+  width: 1021px;
+}
+
+.landing .VIDEO-CASSETTE-CLUB {
+  color: transparent;
+  font-family: "Lalezar", Helvetica;
+  font-size: 128px;
+  font-weight: 400;
+  left: calc(50.00% - 609px);
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: calc(50.00% - 101px);
+  width: 1218px;
+}
+
+.landing .span {
+  color: #000000;
+}
+
+.landing .text-wrapper-2 {
+  color: #f36745;
+}

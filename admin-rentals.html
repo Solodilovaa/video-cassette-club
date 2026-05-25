@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anima Project - User Rentals</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Lalezar:400");
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+      * {
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <link rel="stylesheet" href="./admin-rentals.css" />
+  </head>
+  <body>
+    <div class="user-rental" data-model-id="64:238">
+      <div class="group">
+        <div class="rectangle"></div>
+        <div class="line"></div>
+        <div class="VHS"> VHS-1990-0102</div>
+        <div class="img"></div>
+        <div class="text-wrapper">VCC_111</div>
+        <div class="div">Home Alone</div>
+        <div class="text-wrapper-2">John Due</div>
+        <div class="text-wrapper-3">03.05.26</div>
+        <button class="text-wrapper-4 return-button" type="button" onclick="openReturnConfirmation()">RETURN</button>
+      </div>
+      <div class="line-2"></div>
+      <img
+        class="group-2"
+        alt="Group"
+        src="https://c.animaapp.com/V1kSN10a/img/group.png"
+      />
+      <div class="USER-RENTALS">USER&amp;RENTALS</div>
+      <p class="VIDEO-CASSETTE-CLUB">
+        <span class="span">VIDEO </span>
+        <span class="text-wrapper-5">CASSETTE</span>
+        <span class="span"> CLUB</span>
+      </p>
+      <a class="account-circle account-circle-instance" href="./admin-account.html" aria-label="Admin account">
+        <img
+          alt="Account circle"
+          src="https://c.animaapp.com/V1kSN10a/img/account-circle-1.svg"
+        />
+      </a>
+      <a class="text-wrapper-6" href="./admin-tapes.html">TAPES MANAGEMENT</a>
+      <div class="return-confirmation-overlay" aria-hidden="true">
+        <div class="return-confirmation" role="dialog" aria-modal="true" aria-labelledby="return-confirmation-title">
+          <button class="return-confirm-button" type="button" onclick="confirmRentalReturn()">
+            <img
+              class="return-confirm-vector"
+              alt="Vector"
+              src="https://c.animaapp.com/Vw5eTMAm/img/vector.svg"
+            />
+            <div class="return-confirm-text">CONFIRM</div>
+          </button>
+          <button class="return-cancel-button" type="button" onclick="closeReturnConfirmation()">CANCEL</button>
+          <div class="return-confirmation-title" id="return-confirmation-title">CONFIRM RETURNING</div>
+        </div>
+      </div>
+    </div>
+    <script src="./admin-rentals.js"></script>
+  </body>
+</html>

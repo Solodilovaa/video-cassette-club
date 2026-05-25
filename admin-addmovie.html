@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anima Project - Admin Add Movie</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Lalezar:400");
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+      * {
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <link rel="stylesheet" href="./admin-addmovie.css" />
+  </head>
+  <body>
+    <div class="admin-addmovie" data-model-id="112:73">
+      <div class="group-wrapper">
+        <div class="rectangle-4"></div>
+        <button class="group-2 save-all-button" type="button">
+          <div class="rectangle-5"></div>
+          <div class="text-wrapper-18">SAVE ALL</div>
+        </button>
+        <div class="text-wrapper-19">Duration</div>
+        <input class="add-field text-wrapper-duration" data-field="duration" aria-label="Duration" />
+        <div class="text-wrapper-20">Tape ID</div>
+        <input class="add-field text-wrapper-tape-id" data-field="tapeId" aria-label="Tape ID" />
+        <button class="group-3 choose-image-button" type="button">
+          <div class="rectangle-6"></div>
+          <div class="text-wrapper-21">CHOOSE IMAGE</div>
+        </button>
+        <input class="image-upload" type="file" accept="image/*" aria-label="Choose movie image" />
+        <div class="text-wrapper-22">Description</div>
+        <textarea class="add-field text-wrapper-description" data-field="description" aria-label="Description"></textarea>
+        <div class="text-wrapper-23">Actors</div>
+        <input class="add-field text-wrapper-actors" data-field="actors" aria-label="Actors" />
+        <div class="text-wrapper-24">Director</div>
+        <input class="add-field text-wrapper-director" data-field="director" aria-label="Director" />
+        <div class="text-wrapper-25">Year</div>
+        <input class="add-field text-wrapper-year" data-field="year" aria-label="Year" />
+        <div class="text-wrapper-26">Genres</div>
+        <input class="add-field text-wrapper-genres" data-field="genres" aria-label="Genres" />
+        <div class="text-wrapper-27">Title</div>
+        <input class="add-field text-wrapper-title" data-field="title" aria-label="Title" />
+      </div>
+      <img
+        class="line"
+        alt="Line"
+        src="https://c.animaapp.com/5D4aLScp/img/line.svg"
+      />
+      <div class="image"></div>
+      <p class="VIDEO-CASSETTE-CLUB">
+        <span class="span">VIDEO </span>
+        <span class="text-wrapper-28">CASSETTE</span>
+        <span class="span"> CLUB</span>
+      </p>
+      <a class="USER-RENTALS" href="./admin-rentals.html">USER&amp;RENTALS</a>
+      <a class="account-circle account-circle-instance" href="./admin-account.html" aria-label="Admin account">
+        <img
+          alt="Account circle"
+          src="https://c.animaapp.com/5D4aLScp/img/account-circle-1.svg"
+        />
+      </a>
+      <a class="text-wrapper-29" href="./admin-tapes.html">TAPES MANAGEMENT</a>
+      <div class="save-confirmation-overlay" aria-hidden="true">
+        <div class="save-confirmation" role="dialog" aria-modal="true" aria-labelledby="save-confirmation-title">
+          <button class="save-confirm-button save-confirmation-close" type="button" data-action="confirm">
+            <img
+              class="save-confirm-vector"
+              alt="Vector"
+              src="https://c.animaapp.com/4SOvdbGg/img/vector.svg"
+            />
+            <div class="save-confirm-text">CONFIRM</div>
+          </button>
+          <button class="save-cancel-button save-confirmation-close" type="button" data-action="cancel">CANCEL</button>
+          <div class="save-confirmation-title" id="save-confirmation-title">CONFIRM ALL CHANGES</div>
+        </div>
+      </div>
+    </div>
+    <script src="./admin-addmovie.js"></script>
+  </body>
+</html>

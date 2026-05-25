@@ -1,0 +1,309 @@
+.account-circle {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.account-circle img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.user-movie {
+  background-color: #e4dac7;
+  min-height: 1024px;
+  min-width: 1440px;
+  position: relative;
+  width: 100%;
+}
+
+.user-movie .group {
+  height: 788px;
+  left: 37px;
+  position: absolute;
+  top: 164px;
+  width: 1364px;
+}
+
+.user-movie .rectangle {
+  background-color: #4a4541;
+  border-radius: 30px;
+  height: 788px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1354px;
+}
+
+.user-movie .text-wrapper {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 124px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 738px;
+}
+
+.user-movie .director-chris {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 70px;
+  left: 684px;
+  letter-spacing: 0;
+  line-height: 35px;
+  position: absolute;
+  top: 431px;
+}
+
+.user-movie .div {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 677px;
+  letter-spacing: 0;
+  line-height: 25px;
+  position: absolute;
+  top: 231px;
+  width: 500px;
+}
+
+.user-movie .p {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 684px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 116px;
+  white-space: nowrap;
+}
+
+.user-movie .text-wrapper-2 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 90px;
+  font-weight: 400;
+  left: 677px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 53px;
+  width: 630px;
+}
+
+.user-movie .rectangle-2 {
+  background-color: #4a4541;
+  border-radius: 30px;
+  height: 788px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1354px;
+}
+
+.user-movie .group-2 {
+  height: 75px;
+  left: 812px;
+  position: absolute;
+  top: 783px;
+  width: 352px;
+}
+
+.user-movie .rent-tape-button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+.user-movie .rectangle-3 {
+  background-color: #e4dac6;
+  border-radius: 50px;
+  height: 75px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 350px;
+}
+
+.user-movie .text-wrapper-3 {
+  align-items: center;
+  color: #4a4541;
+  display: flex;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  height: 35px;
+  justify-content: center;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  white-space: nowrap;
+  width: 350px;
+}
+
+.user-movie .image {
+  height: 682px;
+  left: 111px;
+  object-fit: cover;
+  position: absolute;
+  top: 197px;
+  width: 484px;
+}
+
+.user-movie .VIDEO-CASSETTE-CLUB {
+  color: transparent;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  white-space: nowrap;
+  width: 376px;
+}
+
+.user-movie .span {
+  color: #000000;
+}
+
+.user-movie .text-wrapper-4 {
+  color: #f36745;
+}
+
+.user-movie .text-wrapper-5 {
+  color: #1e1e1e;
+  cursor: pointer;
+  display: block;
+  font-family: "Lalezar", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 1103px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: none;
+  top: 57px;
+  white-space: nowrap;
+  width: 156px;
+}
+
+.user-movie .account-circle-instance {
+  height: 88px !important;
+  left: 1314px !important;
+  top: 47px !important;
+  width: 88px !important;
+}
+
+.user-movie .confirmation-overlay {
+  align-items: center;
+  background: rgba(30, 30, 30, 0.28);
+  display: none;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+  z-index: 20;
+}
+
+.user-movie .confirmation-overlay.is-open {
+  display: flex;
+}
+
+.user-movie .confirmation-user {
+  background-color: #e4dac6;
+  border-radius: 30px;
+  height: 295px;
+  min-height: 295px;
+  min-width: 541px;
+  position: relative;
+  width: 541px;
+}
+
+.user-movie .confirmation-user .group {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 62px;
+  left: 258px;
+  padding: 0;
+  position: absolute;
+  top: 192px;
+  width: 224px;
+}
+
+.user-movie .confirmation-user .vector {
+  height: 62px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 222px;
+}
+
+.user-movie .confirmation-user .text-wrapper {
+  align-items: center;
+  color: #e4dac6;
+  display: flex;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 62px;
+  justify-content: center;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+  width: 222px;
+}
+
+.user-movie .confirmation-user .div {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  color: #1e1e1e;
+  cursor: pointer;
+  display: flex;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 48px;
+  justify-content: center;
+  left: 91px;
+  letter-spacing: 0;
+  line-height: normal;
+  padding: 0;
+  position: absolute;
+  top: 192px;
+  width: 102px;
+}
+
+.user-movie .confirmation-user .text-wrapper-2 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  text-align: center;
+  top: 63px;
+  white-space: nowrap;
+  width: 100%;
+}

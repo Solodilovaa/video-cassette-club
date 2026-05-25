@@ -1,0 +1,437 @@
+.account-circle {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.account-circle img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.admin-tapes {
+  background-color: #e4dac7;
+  min-height: 1024px;
+  min-width: 1440px;
+  position: relative;
+  width: 100%;
+}
+
+.admin-tapes .frame {
+  align-items: flex-start;
+  cursor: grab;
+  display: flex;
+  gap: 44px;
+  height: 425px;
+  left: 44px;
+  overflow-x: scroll;
+  position: absolute;
+  touch-action: pan-y;
+  top: 512px;
+  user-select: none;
+  width: 1396px;
+}
+
+.admin-tapes .frame.is-dragging {
+  cursor: grabbing;
+}
+
+.admin-tapes .frame::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.admin-tapes .frame img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.admin-tapes .div {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 44px;
+  margin-bottom: -4px;
+  position: relative;
+}
+
+.admin-tapes .group {
+  height: 429px;
+  position: relative;
+  width: 256px;
+}
+
+.admin-tapes .vector {
+  height: 413px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 254px;
+}
+
+.admin-tapes .image {
+  height: 267px;
+  left: 35px;
+  object-fit: cover;
+  position: absolute;
+  top: 26px;
+  width: 183px;
+}
+
+.admin-tapes .text-wrapper {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: calc(50.00% - 82px);
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 270px;
+  white-space: nowrap;
+}
+
+.admin-tapes .group-2 {
+  height: 100px;
+  left: 67px;
+  position: absolute;
+  top: 329px;
+  width: 126px;
+}
+
+.admin-tapes .rectangle {
+  background-color: #e4dac7;
+  border-radius: 50px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 32px;
+  width: 124px;
+}
+
+.admin-tapes .text-wrapper-2 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.admin-tapes .group-3 {
+  height: 428px;
+  position: relative;
+  width: 254px;
+}
+
+.admin-tapes .img {
+  height: 267px;
+  left: 35px;
+  object-fit: cover;
+  position: absolute;
+  top: 34px;
+  width: 183px;
+}
+
+.admin-tapes .group-4 {
+  height: 150px;
+  left: 65px;
+  position: absolute;
+  top: 278px;
+  width: 128px;
+}
+
+.admin-tapes .home-alone-edit-link {
+  cursor: pointer;
+  display: block;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 82px;
+  width: 124px;
+  z-index: 3;
+}
+
+.admin-tapes .rectangle-2 {
+  background-color: #e4dac7;
+  border-radius: 50px;
+  height: 33px;
+  left: 0;
+  position: absolute;
+  top: 82px;
+  width: 124px;
+}
+
+.admin-tapes .text-wrapper-3 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 41px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 50px;
+  white-space: nowrap;
+}
+
+.admin-tapes .text-wrapper-4 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.admin-tapes .group-5 {
+  height: 425px;
+  position: relative;
+  width: 256px;
+}
+
+.admin-tapes .text-wrapper-5 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 278px;
+  white-space: nowrap;
+}
+
+.admin-tapes .group-6 {
+  height: 100px;
+  left: 64px;
+  position: absolute;
+  top: 325px;
+  width: 126px;
+}
+
+.admin-tapes .image-2 {
+  height: 267px;
+  left: 32px;
+  object-fit: cover;
+  position: absolute;
+  top: 26px;
+  width: 183px;
+}
+
+.admin-tapes .group-7 {
+  height: 424px;
+  position: relative;
+  width: 256px;
+}
+
+.admin-tapes .text-wrapper-6 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 74px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 279px;
+  white-space: nowrap;
+}
+
+.admin-tapes .group-8 {
+  height: 100px;
+  left: 65px;
+  position: absolute;
+  top: 324px;
+  width: 126px;
+}
+
+.admin-tapes .group-9 {
+  height: 428px;
+  position: relative;
+  width: 256px;
+}
+
+.admin-tapes .text-wrapper-7 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 89px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 278px;
+  white-space: nowrap;
+}
+
+.admin-tapes .group-10 {
+  height: 100px;
+  left: 65px;
+  position: absolute;
+  top: 328px;
+  width: 126px;
+}
+
+.admin-tapes .group-11 {
+  height: 428px;
+  margin-right: -2px;
+  position: relative;
+  width: 256px;
+}
+
+.admin-tapes .group-12 {
+  height: 100px;
+  left: 59px;
+  position: absolute;
+  top: 328px;
+  width: 126px;
+}
+
+.admin-tapes .text-wrapper-8 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  left: 29px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 278px;
+  white-space: nowrap;
+}
+
+.admin-tapes .image-3 {
+  height: 267px;
+  left: 34px;
+  object-fit: cover;
+  position: absolute;
+  top: 26px;
+  width: 183px;
+}
+
+.admin-tapes .group-13 {
+  height: 100px;
+  left: 1250px;
+  position: absolute;
+  top: 344px;
+  width: 150px;
+}
+
+.admin-tapes .add-movie-link {
+  cursor: pointer;
+  display: block;
+  height: 47px;
+  left: 0;
+  position: absolute;
+  top: 26px;
+  width: 148px;
+  z-index: 3;
+}
+
+.admin-tapes .rectangle-3 {
+  background-color: #4a4541;
+  border-radius: 50px;
+  height: 47px;
+  left: 0;
+  position: absolute;
+  top: 26px;
+  width: 148px;
+}
+
+.admin-tapes .text-wrapper-9 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: calc(50.00% - 23px);
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.admin-tapes .text-wrapper-10 {
+  color: #4a4541;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 370px;
+  white-space: nowrap;
+}
+
+.admin-tapes .TAPES-MANAGEMENT {
+  color: #000000;
+  font-family: "Lalezar", Helvetica;
+  font-size: 96px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 170px;
+  width: 668px;
+}
+
+.admin-tapes .VIDEO-CASSETTE-CLUB {
+  color: transparent;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  white-space: nowrap;
+  width: 376px;
+}
+
+.admin-tapes .span {
+  color: #000000;
+}
+
+.admin-tapes .text-wrapper-11 {
+  color: #f36745;
+}
+
+.admin-tapes .account-circle-instance {
+  height: 88px !important;
+  left: 1299px !important;
+  top: 33px !important;
+  width: 88px !important;
+}
+
+.admin-tapes .USER-RENTALS {
+  color: #1e1e1e;
+  cursor: pointer;
+  display: block;
+  font-family: "Lalezar", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 1016px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: none;
+  top: 62px;
+  white-space: nowrap;
+  width: 301px;
+}

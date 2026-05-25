@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Anima Project - Admin Movie</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Lalezar:400");
+      @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+      * {
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+    </style>
+    <link rel="stylesheet" href="./admin-movie.css" />
+  </head>
+  <body>
+    <div class="admin-movie" data-model-id="54:146">
+      <div class="group-wrapper">
+        <div class="rectangle-4"></div>
+        <button class="group-2 save-all-button" type="button">
+          <div class="rectangle-5"></div>
+          <div class="text-wrapper-18">SAVE ALL</div>
+        </button>
+        <div class="text-wrapper-19">Duration</div>
+        <input class="admin-field text-wrapper-20" data-field="duration" value="1h 43m" aria-label="Duration" />
+        <div class="text-wrapper-21">Tape ID</div>
+        <textarea class="admin-field text-wrapper-22" data-field="description" aria-label="Description">When 8-year-old Kevin McCallister is accidentally left home alone for the holidays, he thinks his wish has come true. But when two blundering burglars target his house, Kevin must defend his home with a series of hilarious, homemade booby traps.</textarea>
+        <input class="admin-field VHS" data-field="tapeId" value="VHS-1990-0102" aria-label="Tape ID" />
+        <button class="group-3 choose-image-button" type="button">
+          <div class="rectangle-6"></div>
+          <div class="text-wrapper-23">CHOOSE IMAGE</div>
+        </button>
+        <input class="image-upload" type="file" accept="image/*" aria-label="Choose movie image" />
+        <div class="text-wrapper-24">Description</div>
+        <input class="admin-field text-wrapper-25" data-field="actors" value="Macaulay Culkin, Joe Pesci, Daniel Stern" aria-label="Actors" />
+        <div class="text-wrapper-26">Actors</div>
+        <input class="admin-field text-wrapper-27" data-field="director" value="Chris Columbus" aria-label="Director" />
+        <div class="text-wrapper-28">Director</div>
+        <input class="admin-field text-wrapper-29" data-field="genres" value="Comedy" aria-label="Genres" />
+        <div class="text-wrapper-30">Year</div>
+        <div class="text-wrapper-31">Genres</div>
+        <input class="admin-field text-wrapper-32" data-field="year" value="1990" aria-label="Year" />
+        <input class="admin-field text-wrapper-33" data-field="title" value="Home Alone" aria-label="Title" />
+        <div class="text-wrapper-34">Title</div>
+      </div>
+      <img
+        class="line"
+        alt="Line"
+        src="https://c.animaapp.com/CHhpEx9h/img/line.svg"
+      />
+      <img
+        class="image"
+        alt="Image"
+        src="https://c.animaapp.com/CHhpEx9h/img/image@2x.png"
+      />
+      <p class="VIDEO-CASSETTE-CLUB">
+        <span class="span">VIDEO </span>
+        <span class="text-wrapper-35">CASSETTE</span>
+        <span class="span"> CLUB</span>
+      </p>
+      <a class="USER-RENTALS" href="./admin-rentals.html">USER&amp;RENTALS</a>
+      <a class="account-circle account-circle-instance" href="./admin-account.html" aria-label="Admin account">
+        <img
+          alt="Account circle"
+          src="https://c.animaapp.com/CHhpEx9h/img/account-circle-1.svg"
+        />
+      </a>
+      <a class="text-wrapper-36" href="./admin-tapes.html">TAPES MANAGEMENT</a>
+      <div class="save-confirmation-overlay" aria-hidden="true">
+        <div class="save-confirmation" role="dialog" aria-modal="true" aria-labelledby="save-confirmation-title">
+          <button class="save-confirm-button save-confirmation-close" type="button" data-action="confirm">
+            <img
+              class="save-confirm-vector"
+              alt="Vector"
+              src="https://c.animaapp.com/4SOvdbGg/img/vector.svg"
+            />
+            <div class="save-confirm-text">CONFIRM</div>
+          </button>
+          <button class="save-cancel-button save-confirmation-close" type="button" data-action="cancel">CANCEL</button>
+          <div class="save-confirmation-title" id="save-confirmation-title">CONFIRM ALL CHANGES</div>
+        </div>
+      </div>
+    </div>
+    <script src="./admin-movie.js"></script>
+  </body>
+</html>

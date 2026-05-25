@@ -1,0 +1,520 @@
+.account-circle {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.account-circle img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.admin-account {
+  background-color: #e4dac7;
+  min-height: 1024px;
+  min-width: 1440px;
+  position: relative;
+  width: 100%;
+}
+
+.admin-account .image {
+  aspect-ratio: 1.54;
+  height: 553px;
+  left: calc(50.00% - 720px);
+  position: absolute;
+  top: 471px;
+  width: 322px;
+}
+
+.admin-account .group {
+  height: 666px;
+  left: 778px;
+  position: absolute;
+  top: 271px;
+  width: 417px;
+}
+
+.admin-account .rectangle {
+  background-color: #4a4541;
+  border-radius: 45px;
+  height: 666px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 403px;
+}
+
+.admin-account .div {
+  display: block;
+  height: 46px;
+  left: calc(50.00% - 146px);
+  position: absolute;
+  top: 580px;
+  width: 281px;
+}
+
+.admin-account .rectangle-2 {
+  background-color: #fdf2de;
+  border-radius: 50px;
+  height: 46px;
+  left: calc(50.00% - 140px);
+  position: absolute;
+  top: 0;
+  width: 279px;
+}
+
+.admin-account .text-wrapper {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: calc(50.00% - 140px);
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 279px;
+}
+
+.admin-account .update-info-button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 46px;
+  left: calc(50.00% - 146px);
+  padding: 0;
+  position: absolute;
+  top: 510px;
+  width: 279px;
+}
+
+.admin-account .rectangle-3 {
+  background-color: #fdf2de;
+  border-radius: 50px;
+  display: block;
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 279px;
+}
+
+.admin-account .text-wrapper-2 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 279px;
+}
+
+.admin-account .text-wrapper-3 {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 374px;
+  white-space: nowrap;
+}
+
+.admin-account .text-wrapper-4 {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 414px;
+  white-space: nowrap;
+}
+
+.admin-account .text-wrapper-5 {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 308px;
+  white-space: nowrap;
+}
+
+.admin-account .text-wrapper-6 {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 261px;
+  white-space: nowrap;
+}
+
+.admin-account .line {
+  height: 1px;
+  left: 38px;
+  object-fit: cover;
+  position: absolute;
+  top: 241px;
+  width: 331px;
+}
+
+.admin-account .text-wrapper-7 {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 195px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 138px;
+  white-space: nowrap;
+}
+
+.admin-account .text-wrapper-8 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: calc(50.00% - 138px);
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 36px;
+  width: 265px;
+}
+
+.admin-account .group-2 {
+  height: 115px;
+  left: 45px;
+  position: absolute;
+  top: 100px;
+  width: 117px;
+}
+
+.admin-account .ellipse {
+  background-color: #e4dac7;
+  border-radius: 57.5px;
+  height: 115px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 115px;
+}
+
+.admin-account .text-wrapper-9 {
+  color: #1e1e1e;
+  font-family: "Lalezar", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.admin-account .text-wrapper-10 {
+  color: #1e1e1e;
+  font-family: "Lalezar", Helvetica;
+  font-size: 96px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 151px;
+  width: 501px;
+}
+
+.admin-account .VIDEO-CASSETTE-CLUB {
+  color: transparent;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  white-space: nowrap;
+  width: 376px;
+}
+
+.admin-account .span {
+  color: #000000;
+}
+
+.admin-account .text-wrapper-11 {
+  color: #f36745;
+}
+
+.admin-account .USER-RENTALS {
+  color: #1e1e1e;
+  cursor: pointer;
+  display: block;
+  font-family: "Lalezar", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 996px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: none;
+  top: 57px;
+  white-space: nowrap;
+  width: 263px;
+}
+
+.admin-account .account-circle-instance {
+  height: 88px !important;
+  left: 1314px !important;
+  top: 47px !important;
+  width: 88px !important;
+}
+
+.admin-account .text-wrapper-12 {
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  font-family: "Lalezar", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 628px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  text-decoration: none;
+  top: 35px;
+  white-space: nowrap;
+  width: 345px;
+}
+
+.admin-account .admin-profile-overlay {
+  align-items: center;
+  background: rgba(30, 30, 30, 0.28);
+  display: none;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+  z-index: 20;
+}
+
+.admin-account .admin-profile-overlay.is-open {
+  display: flex;
+}
+
+.admin-account .admin-member-profile {
+  background-color: #4a4541;
+  border-radius: 45px;
+  min-height: 666px;
+  min-width: 497px;
+  position: relative;
+  width: 497px;
+}
+
+.admin-account .admin-profile-group {
+  height: 586px;
+  left: 32px;
+  position: absolute;
+  top: 33px;
+  width: 446.5px;
+}
+
+.admin-account .admin-edit {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.admin-account .admin-edit-2 {
+  height: 30px !important;
+  left: 209px !important;
+  top: 437px !important;
+  width: 30px !important;
+}
+
+.admin-account .admin-profile-access-value {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 295px;
+  white-space: nowrap;
+}
+
+.admin-account .admin-profile-email-label {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 387px;
+  white-space: nowrap;
+}
+
+.admin-account .admin-profile-name {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 190px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.admin-account .admin-profile-title {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: calc(50.00% - 139px);
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 0;
+  width: 265px;
+}
+
+.admin-account .admin-profile-ellipse {
+  background-color: #e4dac7;
+  border-radius: 57.5px;
+  height: 115px;
+  left: 13px;
+  position: absolute;
+  top: 67px;
+  width: 115px;
+}
+
+.admin-account .admin-profile-initials {
+  color: #1e1e1e;
+  font-family: "Lalezar", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.admin-account .admin-profile-line {
+  height: 1px;
+  left: calc(50.00% - 223px);
+  object-fit: cover;
+  position: absolute;
+  top: 208px;
+  width: 432px;
+}
+
+.admin-account .admin-profile-access-label {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 228px;
+  white-space: nowrap;
+}
+
+.admin-account .admin-profile-email-input {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 50px;
+  outline: 0;
+  padding: 0;
+  position: absolute;
+  top: 437px;
+  width: 190px;
+}
+
+.admin-account .admin-profile-email-input::selection {
+  background: #f36745;
+  color: #fdf2de;
+}
+
+.admin-account .admin-profile-update-button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 52px;
+  left: calc(50.00% - 146px);
+  padding: 0;
+  position: absolute;
+  top: 534px;
+  width: 281px;
+}
+
+.admin-account .admin-profile-update-rectangle {
+  background-color: #fdf2de;
+  border-radius: 50px;
+  display: block;
+  height: 46px;
+  left: calc(50.00% - 140px);
+  position: absolute;
+  top: 0;
+  width: 279px;
+}
+
+.admin-account .admin-profile-update-text {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: calc(50.00% - 140px);
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 279px;
+}

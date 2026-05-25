@@ -1,0 +1,663 @@
+.account-circle {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.account-circle img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.user-account {
+  background-color: #e4dac7;
+  min-height: 1024px;
+  min-width: 1440px;
+  position: relative;
+  width: 100%;
+}
+
+.user-account .image {
+  aspect-ratio: 1.54;
+  height: 553px;
+  left: calc(50.00% - 720px);
+  position: absolute;
+  top: 471px;
+  width: 322px;
+}
+
+.user-account .text-wrapper {
+  color: #1e1e1e;
+  font-family: "Lalezar", Helvetica;
+  font-size: 96px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: 100px;
+  position: absolute;
+  top: 151px;
+  width: 501px;
+}
+
+.user-account .group {
+  height: 666px;
+  left: 538px;
+  position: absolute;
+  top: 269px;
+  width: 417px;
+}
+
+.user-account .rectangle {
+  background-color: #4a4541;
+  border-radius: 45px;
+  height: 666px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 403px;
+}
+
+.user-account .div {
+  background-color: #fdf2de;
+  border-radius: 50px;
+  height: 46px;
+  left: calc(50.00% - 146px);
+  position: absolute;
+  top: 580px;
+  width: 279px;
+}
+
+.user-account .log-out-click-area {
+  cursor: pointer;
+  display: block;
+  height: 46px;
+  left: calc(50.00% - 146px);
+  position: absolute;
+  top: 580px;
+  width: 279px;
+  z-index: 3;
+}
+
+.user-account .rectangle-2 {
+  background-color: #fdf2de;
+  border-radius: 50px;
+  height: 46px;
+  left: calc(50.00% - 146px);
+  position: absolute;
+  top: 510px;
+  width: 279px;
+}
+
+.user-account .text-wrapper-2 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: calc(50.00% - 140px);
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  text-align: center;
+  top: 510px;
+  white-space: nowrap;
+  width: 279px;
+}
+
+.user-account .update-info-button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 46px;
+  left: calc(50.00% - 146px);
+  padding: 0;
+  position: absolute;
+  top: 510px;
+  width: 279px;
+  z-index: 3;
+}
+
+.user-account .p {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 308px;
+  width: 309px;
+}
+
+.user-account .text-wrapper-3 {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 374px;
+  white-space: nowrap;
+}
+
+.user-account .text-wrapper-4 {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  text-decoration: underline;
+  top: 414px;
+  white-space: nowrap;
+}
+
+.user-account .text-wrapper-5 {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 38px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 261px;
+  white-space: nowrap;
+}
+
+.user-account .line {
+  height: 1px;
+  left: 38px;
+  object-fit: cover;
+  position: absolute;
+  top: 241px;
+  width: 331px;
+}
+
+.user-account .text-wrapper-6 {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 195px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 138px;
+  white-space: nowrap;
+}
+
+.user-account .text-wrapper-7 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: calc(50.00% - 138px);
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 36px;
+  width: 265px;
+}
+
+.user-account .group-2 {
+  height: 115px;
+  left: 45px;
+  position: absolute;
+  top: 100px;
+  width: 117px;
+}
+
+.user-account .ellipse {
+  background-color: #e4dac7;
+  border-radius: 57.5px;
+  height: 115px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 115px;
+}
+
+.user-account .text-wrapper-8 {
+  color: #1e1e1e;
+  font-family: "Lalezar", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 26px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 33px;
+  white-space: nowrap;
+}
+
+.user-account .group-3 {
+  height: 666px;
+  left: 698px;
+  position: absolute;
+  top: 269px;
+  width: 698px;
+}
+
+.user-account .group-4 {
+  height: 666px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 716px;
+}
+
+.user-account .rectangle-3 {
+  background-color: #4a4541;
+  border-radius: 45px;
+  height: 666px;
+  left: 295px;
+  position: absolute;
+  top: 0;
+  width: 403px;
+}
+
+.user-account .text-wrapper-9 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 474px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 323px;
+  white-space: nowrap;
+}
+
+.user-account .text-wrapper-10 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 474px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 540px;
+  white-space: nowrap;
+}
+
+.user-account .TITANIC {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 474px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 404px;
+  white-space: nowrap;
+}
+
+.user-account .text-wrapper-11 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: calc(50.00% + 32px);
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 36px;
+  width: 259px;
+}
+
+.user-account .text-wrapper-12 {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: calc(50.00% - 358px);
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 580px;
+  white-space: nowrap;
+  width: 88px;
+}
+
+.user-account .img {
+  height: 1px;
+  left: 342px;
+  object-fit: cover;
+  position: absolute;
+  top: 385px;
+  width: 331px;
+}
+
+.user-account .text-wrapper-13 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 38px;
+  font-weight: 400;
+  left: 342px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 125px;
+  white-space: nowrap;
+}
+
+.user-account .text-wrapper-14 {
+  color: #e4dac7;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 474px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 183px;
+  white-space: nowrap;
+}
+
+.user-account .image-2 {
+  height: 186px;
+  left: 333px;
+  object-fit: cover;
+  position: absolute;
+  top: 183px;
+  width: 127px;
+}
+
+.user-account .text-wrapper-15 {
+  color: #a8ca94;
+  font-family: "Lalezar", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 474px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 236px;
+  white-space: nowrap;
+}
+
+.user-account .text-wrapper-16 {
+  color: #a8ca94;
+  font-family: "Lalezar", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 474px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 454px;
+  white-space: nowrap;
+}
+
+.user-account .image-3 {
+  height: 186px;
+  left: 333px;
+  object-fit: cover;
+  position: absolute;
+  top: 404px;
+  width: 127px;
+}
+
+.user-account .VIDEO-CASSETTE-CLUB {
+  color: transparent;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 61px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 58px;
+  white-space: nowrap;
+  width: 376px;
+}
+
+.user-account .span {
+  color: #000000;
+}
+
+.user-account .text-wrapper-17 {
+  color: #f36745;
+}
+
+.user-account .text-wrapper-18 {
+  color: #1e1e1e;
+  cursor: pointer;
+  display: block;
+  font-family: "Lalezar", Helvetica;
+  font-size: 36px;
+  font-weight: 400;
+  left: 1103px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-decoration: none;
+  top: 57px;
+  white-space: nowrap;
+  width: 156px;
+}
+
+.user-account .account-circle-instance {
+  height: 88px !important;
+  left: 1314px !important;
+  top: 47px !important;
+  width: 88px !important;
+}
+
+.user-account .profile-overlay {
+  align-items: center;
+  background: rgba(30, 30, 30, 0.28);
+  display: none;
+  inset: 0;
+  justify-content: center;
+  position: fixed;
+  z-index: 20;
+}
+
+.user-account .profile-overlay.is-open {
+  display: flex;
+}
+
+.user-account .member-profile {
+  background-color: #4a4541;
+  border-radius: 45px;
+  display: flex;
+  height: 666px;
+  min-height: 666px;
+  min-width: 497px;
+  position: relative;
+  width: 497px;
+}
+
+.user-account .member-profile .profile-group {
+  height: 586px;
+  margin-left: 32px;
+  margin-top: 33px;
+  position: relative;
+  width: 446.5px;
+}
+
+.user-account .member-profile .edit {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16px;
+}
+
+.user-account .member-profile .edit-2 {
+  height: 30px !important;
+  left: 209px !important;
+  top: 437px !important;
+  width: 30px !important;
+}
+
+.user-account .member-profile .profile-input {
+  background: transparent;
+  border: 0;
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 50px;
+  outline: 0;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.user-account .member-profile .profile-input:focus {
+  text-decoration: underline;
+}
+
+.user-account .member-profile .profile-address-input {
+  left: 6px;
+  top: 295px;
+  width: 360px;
+}
+
+.user-account .member-profile .profile-email-label {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 387px;
+  white-space: nowrap;
+}
+
+.user-account .member-profile .profile-name {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: 190px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.user-account .member-profile .profile-title {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 40px;
+  font-weight: 400;
+  left: calc(50.00% - 139px);
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 0;
+  width: 265px;
+}
+
+.user-account .member-profile .profile-ellipse {
+  background-color: #e4dac7;
+  border-radius: 57.5px;
+  height: 115px;
+  left: 13px;
+  position: absolute;
+  top: 67px;
+  width: 115px;
+}
+
+.user-account .member-profile .profile-initials {
+  color: #1e1e1e;
+  font-family: "Lalezar", Helvetica;
+  font-size: 64px;
+  font-weight: 400;
+  left: 39px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 100px;
+  white-space: nowrap;
+}
+
+.user-account .member-profile .profile-line {
+  height: 1px;
+  left: calc(50.00% - 223px);
+  object-fit: cover;
+  position: absolute;
+  top: 208px;
+  width: 432px;
+}
+
+.user-account .member-profile .profile-address-label {
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 32px;
+  font-weight: 400;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 228px;
+  white-space: nowrap;
+}
+
+.user-account .member-profile .profile-email-input {
+  left: 6px;
+  top: 437px;
+  width: 250px;
+}
+
+.user-account .member-profile .profile-update-button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 52px;
+  left: calc(50.00% - 146px);
+  padding: 0;
+  position: absolute;
+  top: 534px;
+  width: 281px;
+}
+
+.user-account .member-profile .profile-update-rectangle {
+  background-color: #fdf2de;
+  border-radius: 50px;
+  height: 46px;
+  left: calc(50.00% - 140px);
+  position: absolute;
+  top: 0;
+  width: 279px;
+}
+
+.user-account .member-profile .profile-update-text {
+  color: #f36745;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: calc(50.00% - 140px);
+  letter-spacing: 0;
+  line-height: 46px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 279px;
+}
+
+.user-account .member-profile .edit-instance {
+  height: 30px !important;
+  left: 266px !important;
+  top: 295px !important;
+  width: 30px !important;
+}
