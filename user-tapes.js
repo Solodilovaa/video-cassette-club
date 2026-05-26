@@ -1,4 +1,21 @@
 const tapeFrame = document.querySelector(".user-tapes .frame");
+const movieSearchInput = document.querySelector(".movie-search-input");
+const tapeCards = document.querySelectorAll(".user-tapes .tape-card");
+
+if (movieSearchInput) {
+  movieSearchInput.addEventListener("input", () => {
+    const query = movieSearchInput.value.trim().toLowerCase();
+
+    tapeCards.forEach((card) => {
+      const title = (card.dataset.title || "").toLowerCase();
+      card.classList.toggle("is-hidden", query !== "" && !title.includes(query));
+    });
+
+    if (tapeFrame) {
+      tapeFrame.scrollLeft = 0;
+    }
+  });
+}
 
 if (tapeFrame) {
   let isDragging = false;

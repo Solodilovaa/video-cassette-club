@@ -51,6 +51,10 @@
   user-select: none;
 }
 
+.user-tapes .tape-card.is-hidden {
+  display: none;
+}
+
 .user-tapes .group {
   flex: 0 0 256px;
   height: 413px;
@@ -278,4 +282,60 @@
   left: 1299px !important;
   top: 33px !important;
   width: 88px !important;
+}
+
+.user-tapes .search-rectangle {
+  background-color: #4a4541;
+  border-radius: 30px;
+  height: 47px;
+  left: 497px;
+  position: absolute;
+  top: 57px;
+  width: 526px;
+}
+
+.user-tapes .movie-search-input {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: #fdf2de;
+  font-family: "Lalezar", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  height: 47px;
+  left: 520px;
+  letter-spacing: 0;
+  line-height: 47px;
+  outline: 0;
+  padding: 0 58px 0 0;
+  position: absolute;
+  top: 57px;
+  width: 480px;
+  z-index: 2;
+}
+
+.user-tapes .movie-search-input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.user-tapes .movie-search-input::placeholder {
+  color: #fdf2de;
+  opacity: 0.6;
+}
+
+.user-tapes .search {
+  height: 48px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 48px;
+}
+
+.user-tapes .search-instance {
+  height: 30px !important;
+  left: 960px !important;
+  pointer-events: none;
+  top: 62px !important;
+  width: 30px !important;
+  z-index: 3;
 }
