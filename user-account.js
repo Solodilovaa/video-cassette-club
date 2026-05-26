@@ -5,6 +5,27 @@ const profileAddressInput = document.querySelector(".profile-address-input");
 const profileEmailInput = document.querySelector(".profile-email-input");
 const accountAddress = document.querySelector("#account-address");
 const accountEmail = document.querySelector("#account-email");
+const accountRentDate = document.querySelector("#account-rent-date");
+const accountReturnDate = document.querySelector("#account-return-date");
+const rentalRentDateStorageKey = "video-cassette-rental-rent-date";
+const rentalReturnDateStorageKey = "video-cassette-rental-return-date";
+
+function loadRentalDates() {
+  try {
+    const rentDate = localStorage.getItem(rentalRentDateStorageKey);
+    const returnDate = localStorage.getItem(rentalReturnDateStorageKey);
+
+    if (rentDate && accountRentDate) {
+      accountRentDate.textContent = `RENT DATE ${rentDate}`;
+    }
+
+    if (returnDate && accountReturnDate) {
+      accountReturnDate.textContent = `RETURN DATE ${returnDate}`;
+    }
+  } catch {
+    // Keep the default dates from the mockup if browser storage is unavailable.
+  }
+}
 
 function openProfileEditor() {
   profileAddressInput.value = accountAddress.textContent.trim();
@@ -34,3 +55,5 @@ if (updateInfoButton && profileOverlay) {
   updateInfoButton.addEventListener("click", openProfileEditor);
   profileUpdateButton.addEventListener("click", updateProfile);
 }
+
+loadRentalDates();
