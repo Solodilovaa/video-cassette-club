@@ -49,6 +49,10 @@
   user-select: none;
 }
 
+.admin-tapes .home-alone-card.is-deleted {
+  display: none;
+}
+
 .admin-tapes .div {
   align-items: flex-start;
   display: inline-flex;

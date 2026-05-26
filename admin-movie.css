@@ -101,6 +101,37 @@
   width: 353px;
 }
 
+.admin-movie .delete-button {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  height: 50px;
+  left: 1325px;
+  padding: 0;
+  position: absolute;
+  top: 189px;
+  width: 50px;
+  z-index: 5;
+}
+
+.admin-movie .delete {
+  aspect-ratio: 1;
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.admin-movie .delete-instance {
+  height: 50px !important;
+  left: 0 !important;
+  pointer-events: none;
+  top: 0 !important;
+  width: 50px !important;
+}
+
 .admin-movie .group-wrapper {
   height: 788px;
   left: 47px;

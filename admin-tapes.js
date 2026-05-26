@@ -1,4 +1,14 @@
 const adminTapeFrame = document.querySelector(".admin-tapes .frame");
+const homeAloneCard = document.querySelector(".home-alone-card");
+const deletedStorageKey = "video-cassette-home-alone-deleted";
+
+if (homeAloneCard) {
+  try {
+    homeAloneCard.classList.toggle("is-deleted", localStorage.getItem(deletedStorageKey) === "true");
+  } catch {
+    homeAloneCard.classList.remove("is-deleted");
+  }
+}
 
 if (adminTapeFrame) {
   let isDragging = false;

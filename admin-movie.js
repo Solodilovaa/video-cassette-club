@@ -3,8 +3,10 @@ const imageUpload = document.querySelector(".image-upload");
 const chooseImageButton = document.querySelector(".choose-image-button");
 const saveAllButton = document.querySelector(".save-all-button");
 const saveConfirmationOverlay = document.querySelector(".save-confirmation-overlay");
+const deleteButton = document.querySelector(".delete-button");
 const adminFields = document.querySelectorAll(".admin-field");
 const storageKey = "video-cassette-admin-movie";
+const deletedStorageKey = "video-cassette-home-alone-deleted";
 
 const defaultMovieData = {
   actors: "Macaulay Culkin, Joe Pesci, Daniel Stern",
@@ -129,6 +131,18 @@ if (saveConfirmationOverlay) {
     if (actionButton.dataset.action === "cancel") {
       cancelSave();
     }
+  });
+}
+
+if (deleteButton) {
+  deleteButton.addEventListener("click", () => {
+    try {
+      localStorage.setItem(deletedStorageKey, "true");
+    } catch {
+      // The visible redirect still shows the deletion result for this demo flow.
+    }
+
+    window.location.href = "./admin-tapes.html";
   });
 }
 
